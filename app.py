@@ -132,4 +132,4 @@ def get_stock_info():
         return jsonify({'error': 'Failed to fetch data from OpenAI GPT-3 or yfinance.'}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
