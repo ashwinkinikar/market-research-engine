@@ -68,5 +68,3 @@ curl -X GET "http://HOST_NAME:5000/get_stock_info?company_name=Amazon"
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ---
-
-*Ready for `readme.md` file.*
