@@ -7,7 +7,7 @@ curl -X GET "http://HOST_NAME:5000/check"
 ```
 curl --location 'http://HOST_NAME:5000/get_wikipedia_info' \
 --header 'Content-Type: application/json' \
---data '{ "query": "Facebook" }
+--data '{ "query": "Amazon" }
 '
 ```
 
